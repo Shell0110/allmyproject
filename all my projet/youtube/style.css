@@ -61,4 +61,25 @@ body {
     flex-wrap: wrap-reverse;
 }
 
+/* Phone */
+
+@media screen and (min-width: 200px) and (max-width: 1040px) {
+
+    body {
+        background-color: none;
+    }
+
+    .flex-video {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .container > iframe {
+        width: 350px;
+        height: 215;
+    }
+    
+   
+}
 
