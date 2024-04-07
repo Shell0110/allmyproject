@@ -2,20 +2,34 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../assets/guts_chill.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All my project</title>
 </head>
 <body>
     <header>
+
+        <section class="top-nav">
+            <div class="top-title">
+              <p>All my Project</p>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+                <li><a href="/propos/index.html">A propos</a></li>
+                <li><a href="/youtube/index.html">Vidéos</a></li>
+                <li><a href="/update/index.html">MAJ</a></li>
+              
+            </ul>
+          </section>
+
         <div class="flex-title">
-            <div class="title">
-                <h1>Tout mes projets</h1>
-                <button onclick="location='./contact/index.html'">A propos</button>
-                <button onclick="location='./youtube/index.html'">Vidéo</button>
-                <button onclick="location='./update/index.html'">Mise à jour</button>
-                
-                <p>By <a href="https://github.com/Shell0110" target="_blank">Shell0110</a></p>
+            <div class="title" id="title">
+                <h1>Tous mes projets</h1>
+                <p>By <a href="https://github.com/Shell0110" class="btn" target="_blank">Shell0110</a></p>
                 <img src="assets/kyubey.gif">
             </div>
         </div>
@@ -29,37 +43,37 @@
         <div class="allmyproject">
 
             <div class="title-projet">
-                <h1>Projet</h1>
+                <h1>Projets</h1>
             </div>
 
             <div class="flex">
 
-                <div class="container">
-                    <div class="content">
+                <div class="container" id="container">
+                    <div class="content" id="content">
                         <h1>OXIUM MOD</h1>
                         <p>J'ai créer un mod minecraft regroupant 3 objets pour l'instant. (En cours de developpement).</p>
                         <button onclick="location='https://github.com/Shell0110/oxium_mod_1.18.1'" >GitHub</button>
                     </div>
                 </div>
 
-                <div class="container">
-                    <div class="content">
+                <div class="container" id="container">
+                    <div class="content" id="content">
                         <h1>Python Download</h1>
                         <p>Ce code python vous permet de télécharger une vidéos avec son lien youtube.</p>
                         <button onclick="location='https://github.com/Shell0110/python-dowload-yt'">GitHub</button>
                     </div>
                 </div>
 
-                <div class="container">
-                    <div class="content">
+                <div class="container" id="container">
+                    <div class="content" id="content">
                         <h1>All my project</h1>
-                        <p>Site web pour voir tout mes projets <br/>en cours de développement ou non. (En cours de developpement).</p>
+                        <p>Site web pour voir tout mes projets en cours de développement ou non. (En cours de developpement).</p>
                         <button onclick="location='https://github.com/Shell0110/allmyproject'">GitHub</button>
                     </div>
                 </div>
 
-                <div class="container">
-                    <div class="content">
+                <div class="container" id="container">
+                    <div class="content" id="content">
                         <h1>Iridium</h1>
                         <p>Iridium est un site web pour voir les infos de mon serveur minecraft.<br/> (Serveur: Inactif)</p>
                         <button onclick="location='https://iridiumnetwork.netlify.app'">Site Web</button>

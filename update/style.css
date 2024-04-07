@@ -81,6 +81,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.info {
+    color: rgb(172, 30, 30);
+    margin: 0;
+}
+
+.desc {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+}
+
 .content > button {
     padding: 20px 100px;
     background-color: rgba(255, 255, 255, 0.267);
@@ -104,7 +115,7 @@ body {
     
     body {
         background-color: none;
-    }
+    } 
    
 }
 
