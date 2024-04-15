@@ -193,7 +193,7 @@ h2 {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -202,7 +202,12 @@ h2 {
     padding: 50px;
     width: 350px;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.container:hover {
+  scale: 0.98;
 }
 
 .content > h1 {

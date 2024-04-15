@@ -9,13 +9,31 @@
 </head>
 <body>
 
-<header>
-    <div class="title">
-        <h1>Mise a jour</h1>
-        <p>Voir la dernière mise à jour du site.</p>
-        <button onclick="location='../index.html'">Revenir</button>
-    </div>
-</header>
+    <header>
+
+        <section class="top-nav">
+            <div class="top-title">
+              <p>All my Project</p>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="/propos/index.html">A propos</a></li>
+                <li><a href="/youtube/index.html">Vidéos</a></li>
+                <li><a href="index.html">MAJ</a></li>
+              
+            </ul>
+          </section>
+
+        <div class="flex-title">
+            <div class="title" id="title">
+                <h1>MAJ</h1>
+            </div>
+        </div>
+    </header>
 
 <main>
 
@@ -26,8 +44,6 @@
 
     <div class="flex-update">
 
-        
-
         <div class="container">
             <div class="content">
                 <h1>Ajout de la page "MAJ"</h1>
@@ -35,7 +51,18 @@
                 <p class="desc">
                     Ajout de la page "Mise à jour".
                 </p>
-                <button onclick="location='https://github.com/Shell0110/allmyproject'">GITHUB du site</button>
+                <button onclick="location='https://github.com/Shell0110/allmyproject'">GITHUB</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <h1>Reconstruction du site</h1>
+                <p class="info">Le 15/04/2024<br/> A 19:15</p>
+                <p class="desc">
+                    Reconstruction du site (Couleur, texte..)
+                </p>
+                <button onclick="location='https://github.com/Shell0110/allmyproject'">GITHUB</button>
             </div>
         </div>
 

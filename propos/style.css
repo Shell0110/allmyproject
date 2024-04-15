@@ -312,6 +312,11 @@ h2 {
         justify-content: center;
         gap: 50px;
     }
+
+    .title-language > h1 {
+      color: yellow;
+      font-size: 35px;
+    } 
     
     .content > a > img {
         margin-top: 30px;
@@ -327,5 +332,7 @@ h2 {
     .content > p {
         font-weight: 600;
     }
+
+    
     
 }
